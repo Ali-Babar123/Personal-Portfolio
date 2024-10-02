@@ -23,11 +23,9 @@ body {
 
 ::-webkit-scrollbar-track {
   background: #1a1a1a; /* Track color */
-  border-radius: 10px; /* Optional: Rounded corners */
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #000000; /* Scrollbar color */
-  border-radius: 10px; /* Optional: Rounded corners */
   border: 3px solid #1a1a1a; /* Space around the thumb */
 }

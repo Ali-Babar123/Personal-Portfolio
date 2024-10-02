@@ -9,17 +9,16 @@ const HeroSection = () => {
       style={{
         backgroundImage:
           "linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%)",
-        backgroundSize: "cover", // Ensures the background covers the entire area
-        backgroundPosition: "center", // Centers the background image
-        backgroundRepeat: "no-repeat", // Prevents the image from repeating
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        textAlign: "center",
+        alignItems: "center",
         height: "90vh",
       }}
       className="HeroSection h-screen flex flex-col lg:flex-row items-center justify-center w-full"
     >
-      <div
-        className="Left-part flex flex-col lg:w-2/4 items-center lg:items-start text-center lg:text-left"
-        style={{ border: "1px solid red" }}
-      >
+      <div className="Left-part flex flex-col lg:w-2/4 items-center lg:items-start text-center lg:text-left">
         <div className="Social-links p-2 flex gap-4 justify-center lg:justify-start">
           <div
             className="Instagram border-2 border-red-400 w-12 h-12 flex items-center justify-center rounded-full"
