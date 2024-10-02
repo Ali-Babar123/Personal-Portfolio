@@ -18,8 +18,8 @@ const HeroSection = () => {
       }}
       className="HeroSection h-screen flex flex-col lg:flex-row items-center justify-center w-full"
     >
-      <div className="Left-part flex flex-col lg:w-2/4 items-center lg:items-start text-center lg:text-left">
-        <div className="Social-links p-2 flex gap-4 justify-center lg:justify-start">
+      <div className="Left-part flex flex-col lg:w-2/4 items-start text-left">
+        <div className="Social-links p-2 flex justify-center lg:justify-start">
           <div
             className="Instagram border-2 border-red-400 w-12 h-12 flex items-center justify-center rounded-full"
             style={{
@@ -32,7 +32,7 @@ const HeroSection = () => {
             </a>
           </div>
           <div
-            className="Github border-2 border-red-400 w-12 h-12 flex items-center justify-center rounded-full"
+            className="Github border-2 border-red-400 w-12 h-12 flex items-center justify-center rounded-full ml-2" /* Adjusted margin */
             style={{
               backgroundImage:
                 "linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%)",
@@ -45,7 +45,7 @@ const HeroSection = () => {
         </div>
 
         <div className="My-detail w-full px-2">
-          <h4 className="text-white text-xl lg:text-2xl font-serif">Hello!</h4>
+          <h4 className="text-white text-xl lg:text-3xl font-serif">Hello!</h4>
           <h1 className="text-white text-4xl lg:text-6xl font-bold my-3">
             I'm{" "}
             <span className="text-4xl lg:text-6xl text-red-400">

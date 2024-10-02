@@ -1,6 +1,8 @@
 .Social-links {
   width: 100%;
   justify-content: center;
+  gap: 0; /* Ensure no gap between icons */
+  margin-bottom: 2rem; /* Add margin to create space between icons and text */
 }
 
 @media (max-width: 468px) {
@@ -21,7 +23,7 @@
 
   .Social-links {
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto; /* Ensure no gap between icons and add margin */
   }
 
   .My-detail {
@@ -32,7 +34,7 @@
     font-size: 1.7rem;
   }
 
-  .text-2xl {
+  .text-3xl {
     font-size: 1.2rem;
   }
 }
@@ -57,7 +59,7 @@
     font-size: 3rem;
   }
 
-  .text-2xl {
+  .text-3xl {
     font-size: 1.5rem;
   }
 }
@@ -65,10 +67,14 @@
 @media (min-width: 1024px) {
   .HeroSection {
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .Left-part {
     text-align: left;
+    align-items: flex-start;
+    padding: 2rem;
   }
 
   .Right-part {
@@ -79,7 +85,12 @@
     font-size: 4rem;
   }
 
-  .text-2xl {
+  .text-3xl {
     font-size: 2rem;
+  }
+
+  .Social-links {
+    justify-content: center; /* Ensure icons are centered */
+    margin-bottom: 2rem; /* Add margin to separate icons and text */
   }
 }
