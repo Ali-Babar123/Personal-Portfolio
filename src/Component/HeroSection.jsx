@@ -48,7 +48,7 @@ const HeroSection = () => {
           <h4 className="text-white text-xl lg:text-3xl font-serif">Hello!</h4>
           <h1 className="text-white text-4xl lg:text-6xl font-bold my-3">
             I'm{" "}
-            <span className="text-4xl lg:text-6xl text-red-400">
+            <span className="text-4xl lg:text-6xl" style={{color: "#ff6b6b"}}>
               Muhammad Ali
             </span>
           </h1>
